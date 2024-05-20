@@ -1,0 +1,28 @@
+ActuatorBus_list:
+  ActuatorBus_01
+  ActuatorBus_02
+  ActuatorBus_03
+
+ActuatorBus_01:
+  device_proxy:
+   'tango://localhost:20002/sys/actuatorbus/01'
+  actuatorbus_id: 
+   '01'
+
+ActuatorBus_02:
+  device_proxy:
+   'tango://localhost:20002/sys/actuatorbus/02'
+  actuatorbus_id: 
+   '02'
+
+ActuatorBus_03:
+  device_proxy:
+   'tango://localhost:20002/sys/actuatorbus/03'
+  actuatorbus_id: 
+   '03'
+
+attribute_list:
+ - 'temperature' 
+ - 'position'
+ - 'current'
+ - 'velocity'
